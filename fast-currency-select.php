@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Fast Currency Select
- * Plugin URI: https://github.com
+ * Plugin URI: https://github.com/MPGod42/fast-currency-select
  * Description: Quick currency selector for WooCommerce admin
  * Version: 1.0.0
  * Author: MPGod42
