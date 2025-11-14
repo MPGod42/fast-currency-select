@@ -148,8 +148,10 @@ This repository should include a `LICENSE` file. WordPress plugins are typically
 If you plan to publish on WordPress.org, use a GPL-compatible license.
 
 ## Changelog
-
 - See `CHANGELOG.md` (create one) for a history of important changes and releases.
+
+= 1.0.0 =
+* Initial release — compact admin currency selector and settings page, optional logger
 
 ---
 
