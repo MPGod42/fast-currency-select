@@ -1,0 +1,92 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Fast Currency Select 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-14 00:00+0000\n"
+"PO-Revision-Date: 2025-11-14 00:00+0000\n"
+"Last-Translator: Translator Name <translator@example.com>\n"
+"Language-Team: Slovenian\n"
+"Language: sl_SI\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: admin/class-fast-currency-select-admin.php:91
+msgid "Default Currency"
+msgstr "Privzeta valuta"
+
+#: admin/class-fast-currency-select-admin.php:92
+msgid "Select currency"
+msgstr "Izberite valuto"
+
+#: admin/class-fast-currency-select-admin.php:93
+msgid "Add"
+msgstr "Dodaj"
+
+#: admin/class-fast-currency-select-admin.php:94
+msgid "Remove"
+msgstr "Odstrani"
+
+#: admin/class-fast-currency-select-admin.php:96
+msgid "Saving…"
+msgstr "Shranjujem…"
+
+#: admin/class-fast-currency-select-admin.php:97
+msgid "Saved"
+msgstr "Shranjeno"
+
+#: admin/class-fast-currency-select-admin.php:113
+msgid "Settings"
+msgstr "Nastavitve"
+
+#: admin/class-fast-currency-select-admin.php:180
+msgid "No valid currencies provided or currencies not recognized by WooCommerce."
+msgstr "Nobena veljavna valuta ni bila določena ali WooCommerce ne prepozna navedenih valut."
+
+#: admin/class-fast-currency-select-admin.php:240
+msgid "Fast Currency Select"
+msgstr "Hitri izbor valute"
+
+#: admin/class-fast-currency-select-admin.php:261
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Nimate zadostnih dovoljenj za dostop do te strani."
+
+#: admin/class-fast-currency-select-admin.php:272
+msgid "Add Currency"
+msgstr "Dodaj valuto"
+
+#: admin/class-fast-currency-select-admin.php:295
+msgid "Enabled"
+msgstr "Omogočeno"
+
+#: admin/class-fast-currency-select-admin.php:295
+msgid "Currency"
+msgstr "Valuta"
+
+#: admin/class-fast-currency-select-admin.php:295
+msgid "Name"
+msgstr "Ime"
+
+#: admin/class-fast-currency-select-admin.php:295
+msgid "Actions"
+msgstr "Dejanja"
+
+#: admin/class-fast-currency-select-admin.php:295
+msgid "Order"
+msgstr "Vrstni red"
+
+#: admin/class-fast-currency-select-admin.php:318
+msgid "Diagnostic"
+msgstr "Diagnostika"
+
+#: admin/class-fast-currency-select-admin.php:319
+msgid "When enabled, the plugin writes diagnostic messages to the WooCommerce logger (if available) or to the PHP error log. This should only be used temporarily in production."
+msgstr "Ko je omogočeno, vtičnik zapisuje diagnostična sporočila v WooCommerce dnevnik (če je na voljo) ali v PHP-jev dnevnik napak. To naj se v produkciji uporablja le začasno."
+
+#: admin/class-fast-currency-select-admin.php:321
+msgid "Enable debug logging"
+msgstr "Omogoči beleženje za odpravljanje napak"
+
+#: admin/class-fast-currency-select-admin.php:321
+msgid "Save Settings"
+msgstr "Shrani nastavitve"

@@ -1,0 +1,109 @@
+#fast-currency-select {
+    position: relative;
+    top: -3px;
+    vertical-align: baseline;
+    font-size: 13px;
+}
+
+.fcs-currencies-wrap .fcs-currency-list {
+    margin-bottom: 8px;
+}
+
+.fcs-action-row .fcs-action-cell {
+    padding: 10px 12px;
+}
+
+/* No icon on page button; staying minimal and inline */
+
+.page-title-action.fcs-add-currency {
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.column-actions { text-align: center; width: 140px; }
+
+.column-order { text-align: center; width: 40px; cursor: move; }
+
+.fcs-drag-handle {
+    color: #999;
+    font-size: 16px;
+    line-height: 1;
+    cursor: move;
+}
+
+.fcs-drag-handle:hover {
+    color: #333;
+}
+
+/* Center buttons/links inside the actions column */
+.column-actions .button,
+.column-actions a {
+    display: inline-block;
+    margin: 0 6px;
+    vertical-align: middle;
+}
+
+.fcs-remove-currency {
+    text-decoration: none;
+}
+
+.fcs-action-row-top td { border-top: 1px solid #eee; }
+.fcs-action-row-bottom td { border-bottom: 1px solid #eee; }
+
+/* Sortable styles */
+.ui-sortable-helper {
+    height: auto !important;
+    background: #fff !important;
+    /* thinner border for lighter appearance */
+    border: 1px solid rgba(0,0,0,0.06) !important;
+    /* lighter shadow so the helper isn't too thick */
+    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+    /* Make helper render like a table row and use pixel width from script */
+    display: table;
+    box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.ui-sortable-placeholder {
+    visibility: visible !important;
+    /* slightly subtler placeholder background for less visual weight */
+    background: rgba(0,0,0,0.02) !important;
+    border: 1px dashed rgba(0,0,0,0.06) !important;
+    /* Make placeholder behave like a real row so layout isn't compressed */
+    display: table-row;
+    box-sizing: border-box;
+}
+
+/* Inline striped classes used for live-updating; we keep these lightweight and limited to
+ * the plugin to avoid interfering with other admin tables. They shadow the WP striping
+ * while allowing us to update styles live during drag operations in JavaScript. */
+.fcs-currency-list tr.fcs-odd td {
+    background-color: #fafafa; /* subtle off-white for better readability */
+}
+
+.fcs-currency-list tr.fcs-even td {
+    background-color: #ffffff;
+}
+
+/* Smooth transitions to make live updates feel lighter */
+.fcs-currency-list tbody td {
+    transition: background-color 120ms ease;
+}
+
+.fcs-currency-list .ui-sortable-placeholder.fcs-odd td {
+    background-color: rgba(0,0,0,0.02) !important; /* keep placeholder subtle, most UIs use translucent */
+}
+
+.fcs-currency-list .ui-sortable-placeholder.fcs-even td {
+    background-color: rgba(0,0,0,0.01) !important;
+}
+
+/* Ensure the drag helper can adopt stripe colors. The helper is rendered above
+ * the table so we keep its background identical to the row color while dragging. */
+.fcs-currency-list .ui-sortable-helper.fcs-odd td {
+    background-color: #fafafa !important;
+}
+.fcs-currency-list .ui-sortable-helper.fcs-even td {
+    background-color: #ffffff !important;
+}
+.fcs-currency-list .ui-sortable-helper td { transition: background-color 120ms ease; }

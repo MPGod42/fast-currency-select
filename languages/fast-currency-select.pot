@@ -1,0 +1,90 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Fast Currency Select 1.0.0\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: admin/class-fast-currency-select-admin.php:91
+msgid "Default Currency"
+msgstr ""
+
+#: admin/class-fast-currency-select-admin.php:92
+msgid "Select currency"
+msgstr ""
+
+#: admin/class-fast-currency-select-admin.php:93
+msgid "Add"
+msgstr ""
+
+#: admin/class-fast-currency-select-admin.php:94
+msgid "Remove"
+msgstr ""
+
+#: admin/class-fast-currency-select-admin.php:96
+msgid "Saving…"
+msgstr ""
+
+#: admin/class-fast-currency-select-admin.php:97
+msgid "Saved"
+msgstr ""
+
+#: admin/class-fast-currency-select-admin.php:113
+msgid "Settings"
+msgstr ""
+
+#: admin/class-fast-currency-select-admin.php:180
+msgid "No valid currencies provided or currencies not recognized by WooCommerce."
+msgstr ""
+
+#: admin/class-fast-currency-select-admin.php:240
+msgid "Fast Currency Select"
+msgstr ""
+
+#: admin/class-fast-currency-select-admin.php:261
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: admin/class-fast-currency-select-admin.php:272
+msgid "Add Currency"
+msgstr ""
+
+#: admin/class-fast-currency-select-admin.php:295
+msgid "Enabled"
+msgstr ""
+
+#: admin/class-fast-currency-select-admin.php:295
+msgid "Currency"
+msgstr ""
+
+#: admin/class-fast-currency-select-admin.php:295
+msgid "Name"
+msgstr ""
+
+#: admin/class-fast-currency-select-admin.php:295
+msgid "Actions"
+msgstr ""
+
+#: admin/class-fast-currency-select-admin.php:295
+msgid "Order"
+msgstr ""
+
+#: admin/class-fast-currency-select-admin.php:318
+msgid "Diagnostic"
+msgstr ""
+
+#: admin/class-fast-currency-select-admin.php:319
+msgid "When enabled, the plugin writes diagnostic messages to the WooCommerce logger (if available) or to the PHP error log. This should only be used temporarily in production."
+msgstr ""
+
+#: admin/class-fast-currency-select-admin.php:321
+msgid "Enable debug logging"
+msgstr ""
+
+#: admin/class-fast-currency-select-admin.php:321
+msgid "Save Settings"
+msgstr ""
